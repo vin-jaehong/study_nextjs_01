@@ -3,6 +3,7 @@ import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 
+//정적 생성 (사전 랜더링. 서버측에서만 실행 되기 때문에 외부 API 에 요청 후 값을 받아 사용 가능)
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
   return {
