@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Vin JaeHong';
-export const siteTitle = '빈재홍의 Next.js 예제 사이트';
+export const siteTitle = '재홍의 Next.js 예제 사이트';
 
 export default function Layout({ children, home }) {
   return (
